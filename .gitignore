@@ -5,6 +5,7 @@ build/
 !**/src/test/**/build/
 
 ### IntelliJ IDEA ###
+.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
@@ -44,3 +45,10 @@ bin/
 ### Данные PostgreSQL ###
 docker/postgres-data/
 docker/pgadmin-data/
+
+### Локальные секреты для разработки ###
+src/**/secret.properties
+
+### Логи ###
+logs/
+*.log
